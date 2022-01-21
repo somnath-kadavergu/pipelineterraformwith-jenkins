@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "bucklebuck" {
   acl    = "private"
 
   tags = {
-    Name        = "rav1i-day1a-santhos1h-deepak1231"
+    Name        = "Devops-terraform-Jenkins"
     Environment = "Dev"
   }
 }
